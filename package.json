@@ -1,16 +1,16 @@
 {
   "name": "grunt-conventional-changelog",
-  "version": "1.1.0",
+  "version": "1.2.2-rally",
   "description": "Generate a markdown changelog from git commit data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brian Ford (http://briantford.com)",
-  "bugs": "https://github.com/btford/grunt-conventional-changelog/issues",
+  "bugs": "https://github.com/RallySoftware/grunt-conventional-changelog/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/btford/grunt-conventional-changelog.git"
+    "url": "https://github.com/RallySoftware/grunt-conventional-changelog.git"
   },
   "keywords": [
     "grunt",
@@ -27,11 +27,14 @@
   ],
   "license": "BSD",
   "dependencies": {
-    "conventional-changelog": "0.0.6"
+    "conventional-changelog": "0.0.13-rally"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6",
     "grunt-release": "~0.3.3"
+  },
+  "publishConfig": {
+    "registry": "http://npm-publish.f4tech.com"
   }
 }
